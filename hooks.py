@@ -2,9 +2,9 @@ from . import __version__ as app_version
 
 app_name = "app_backup_restore"
 app_title = "App Backup Restore"
-app_publisher = "Your Company"
+app_publisher = "Prasad"
 app_description = "Frappe app for partial backup and restore"
-app_email = "info@yourcompany.com"
+app_email = "pythona620@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>

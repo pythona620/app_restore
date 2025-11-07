@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include INSTALLATION.md
+include USAGE.md
+include QUICKSTART.md
+recursive-include app_backup_restore *.py
+recursive-include app_backup_restore *.json
+recursive-include app_backup_restore *.js
+recursive-include app_backup_restore *.css
+recursive-include app_backup_restore *.html
+recursive-include app_backup_restore *.md
