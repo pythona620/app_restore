@@ -1,0 +1,22 @@
+[project]
+name = "app_backup_restore"
+version = "0.0.1"
+description = "Frappe app for partial backup and restore"
+authors = [
+    { name = "Prasad", email = "pythona620@gmail.com" }
+]
+dependencies = [
+    "frappe"
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]
+
+[project.entry-points."frappe"]
+app_backup_restore = "app_backup_restore.hooks"
